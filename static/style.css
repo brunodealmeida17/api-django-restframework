@@ -1,0 +1,23 @@
+.presentation-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .avatar-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+  
+  .avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .text-container {
+    text-align: left;
+  }
